@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    
+}
+body{
+    background-color: rgb(187, 208, 236);
+}
+
+ h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+ }
+ p{
+    font-size: 15px;
+    width: 500px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    margin: 2px;
+ }
+
+ img{
+    float: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding:0;
+    margin: 0;
+    
+ }
+
+ @keyframes img{
+    from {width: 250px;}
+    to{width: 320px;}
+    from{height: 250px;}
+    to{height: 320px;}
+    
+ }
+img{
+
+animation-name: img;
+animation-duration: 4s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-timing-function: ease-in-out;
+animation-fill-mode:both;
+
+ }
+
+ 
